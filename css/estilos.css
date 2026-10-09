@@ -1,21 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-
-
-
-body{
-    font-family: 'Pixelify Sans', sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Pixelify+Sans:wght@400..700&display=swap');
 
 :root{
     --blue: blue;
     --fondo-conteiner:#f5f5f5;
-    --fondo-logo:#c8d6e2;
+    --fondo-logo:#c8d6e28d;
+    --primary:#081326 ;
+    --second:#00B8FF;
+    --txt-second:#E6F6FF;
+    --p2:var(--blue);
 }
 
-.icon{
-    color:var(--blue)
+
+body{
+    font-family: 'Pixelify Sans', sans-serif;
+    background: var(--primary);
+    color: aliceblue;
+
 }
+
+
+/*----------------------
+    NAV
+-----------------------*/
+
+.navegador,
+.navegador .bg-1 {
+    background: var(--fondo-logo) !important;
+    border-bottom: 1px solid var(--primary);
+    color: var(--primary);
+
+}
+.navegador a{
+    
+}
+
+
+
 
 /*----------------------
     BANNERS
@@ -73,8 +94,6 @@ body{
     min-width: 90px;
     height: 90px;
     margin-right: 5px;
-
-    
 }
 
 
@@ -82,16 +101,18 @@ body{
     
     border-radius:50% ;
     width: 80px;
-    height: 70px;
-
-    
+    height: 70px;   
     
 }
+
+
 
 .logo-container img:hover{
     width: 85px;
     height: 75px;
 }
+
+
 
 /*--------------------
     EMPRESA
@@ -111,11 +132,33 @@ body{
     justify-content: center;
     align-items: center;
     
-    border: 1px solid #CBD5E1;
     box-shadow: 0 4px 15px rgba(100, 125, 155, 0.20);
-
+    
 
 }
+
+
+.present-container a{
+    
+     font-family: "Isometra", serif;
+     font-size: 50px;
+     color: var(--second);
+
+}
+
+.present-container p{
+    color: var(--second);
+    font-size: xx-large;
+    margin-top: 20px;
+   
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+/*          X Y  desenfoque  color */
+    -webkit-text-stroke: inset 0 -5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
 /*texto*/
 .present-txt{
     text-decoration: none;
