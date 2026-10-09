@@ -12,10 +12,8 @@
         <title>Bootstrap demo</title>
     </head>
     <body>
-    <header >
-        
-        <nav class="navbar navbar-expand bg-1">
-            
+    <header >      
+        <nav class="navbar navbar-expand bg-1">   
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <div class="nav-overflow" data-bs-toggle="nav-overflow">
@@ -43,8 +41,68 @@
             </div>
         </nav>      
     </header>
+
     <main>
+        <section name="" id="">
+            <div id="carouselExampleContent" class="carousel slide">
+                <!-- BANNERS -->
+                <div class="carousel-inner rounded-5">
+
+                        <!-- banner 1 -->
+                    <div class="carousel-item active">
+                        <div class="fondo d-flex flex-column justify-content-center bg-subtle-primary p-9 bg-1 rounded-5" style="min-height: 320px;">     
+                            
+                            <video autoplay loop muted playsinline> 
+                                <source src="https://res.cloudinary.com/rzaho8dn/video/upload/v1791509252/fondo1.mp4" type="video/mp4"> 
+                            </video>
+
+                            <h3>Build anything</h3>
+                            <p class="fg-emphasis-secondary mb-3">Compose slides from your own markup—text, buttons, cards, or media.</p>
+                            <div><a class="btn-solid theme-primary" href="#">Get started</a></div>
+                        </div>
+                    </div>
+
+                        <!-- banner 2 --> 
+                    <div class="carousel-item">
+                        <div class="fondo d-flex flex-column justify-content-center text-center bg-subtle-success p-9 bg-2 rounded-5" style="min-height: 320px ;">      
+                                <video autoplay loop muted playsinline>
+                                    <source 
+                                    src="https://drive.google.com/file/d/1Y161sK-B_FvuVSMrMMZ62czR1cdg66f_/view?usp=sharing" 
+                                    type="video/mp4">
+                                </video>
+                            <h3>Style it your way</h3>
+                            <p class="fg-emphasis-secondary mb-3">Use utilities or custom CSS to size and theme each slide however you need.</p>
+                            <div><a class="btn-solid theme-success" href="#">Learn more</a></div>
+                        </div>
+                    </div>
+
+                        <!-- banner 3 -->
+                    <div class="carousel-item">
+                        <div class="fondo d-flex flex-column justify-content-center text-end bg-subtle-warning p-9 bg-3 rounded-5" style="min-height: 320px;">
+                            <video autoplay loop muted playsinline>
+                                <source src="videos/fondo3.mp4" type="video/mp4">
+                            </video>
+                            <h3>Mix and match</h3>
+                            <p class="fg-emphasis-secondary mb-3">Combine custom content with controls, indicators, and the overlay layout.</p>
+                            <div><a class="btn-solid theme-inverse" href="#">Browse examples</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center gap-2">
+                    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent" data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
+                    <span class="carousel-icon-prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent" data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
+                    <span class="carousel-icon-next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
         <h1>Web-Luz</h1>
+
+        
         <section>
             <h2>Personajes</h2>
             <p>

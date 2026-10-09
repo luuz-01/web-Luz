@@ -3,3 +3,44 @@ body{
     font-family: 'Pixelify Sans', sans-serif;
 }
 
+
+:root{
+    --blue: blue;
+}
+
+.icon{
+    color:var(--blue)
+}
+
+/*----------------------
+    BANNERS
+------------------------*/
+
+.fondo {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    padding: 0 !important;
+    
+}
+
+.fondo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+
+.fondo h3,
+.fondo p,
+.fondo div {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
