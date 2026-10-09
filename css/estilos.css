@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+
 body{
     font-family: 'Pixelify Sans', sans-serif;
 }
@@ -6,6 +9,8 @@ body{
 
 :root{
     --blue: blue;
+    --fondo-conteiner:#f5f5f5;
+    --fondo-logo:#c8d6e2;
 }
 
 .icon{
@@ -43,4 +48,82 @@ body{
     position: relative;
     z-index: 1;
     color: white;
+}
+
+
+
+
+.nav li:hover{
+    background: red;
+    border: 2px solid purple;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+
+}
+
+/*------------------
+    LOGO
+--------------------*/
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: white;
+    min-width: 90px;
+    height: 90px;
+    margin-right: 5px;
+
+    
+}
+
+
+.logo-container img{
+    
+    border-radius:50% ;
+    width: 80px;
+    height: 70px;
+
+    
+    
+}
+
+.logo-container img:hover{
+    width: 85px;
+    height: 75px;
+}
+
+/*--------------------
+    EMPRESA
+-----------------------*/
+/*contenedor*/
+.present-container{
+    
+    justify-content: center;
+
+    background: var(--fondo-logo);
+    max-height: 100px;
+    padding:0 8px ;
+    margin: 0 30px 0 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid #CBD5E1;
+    box-shadow: 0 4px 15px rgba(100, 125, 155, 0.20);
+
+
+}
+/*texto*/
+.present-txt{
+    text-decoration: none;
+    font-size: xx-large ;
+    
+
+
+}
+.present:hover{
+    font-weight: 800;
 }
