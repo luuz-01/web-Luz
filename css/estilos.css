@@ -593,3 +593,21 @@ margin: 20px 10px 20px 0;
     transform: translateY(-2px);
 
 }
+/*-----------------------------
+    Musica
+*/
+
+#btnMusica {
+    background: transparent;
+    color: var(--second);
+    border: 2px solid var(--second);
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#btnMusica:hover {
+    background: var(--second);
+    color: black;
+}
