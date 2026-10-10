@@ -323,6 +323,56 @@ body{
 /*-----------------------
 */
 
+
+/*-----------------------------------
+    CONTENIDO
+-------------------------------------*/
+/*-CONTAINER*/
+.contenido{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 3px solid red;
+    background: #00B8FF;
+}
+
+.card{
+max-height:100px ;  
+max-width: 600px;
+
+
+}
+/*imagen*/
+.reciente{
+    height: 100px;
+    min-width: 200px;
+    
+}
+
+/*---cuadro1--------------------------*/
+
+.contenido .cuadro1{
+border: 3px solid green;
+}
+
+
+
+
+
+/*---cuadro2--------------------------*/
+.contenido .cuadro2{
+border:3px solid purple
+}
+
+
+
+/*--cuadro3*/
+.contenido .cuadro3{
+    border: 3px solid orange;
+
+}
 /*-----------------------------------
     PASAR CURSOR
 ------------------------------------*/
